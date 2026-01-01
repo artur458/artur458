@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 I'm Game Development
 --------------------
 
-I am a young programmer who was born on March 5, 2012. And he started programming in 2021. And I will be glad if you hold me, and maybe you will make games with me!
+I am a young programmer who was born on March 5, 2012. And he started programming in 2020. And I will be glad if you hold me, and maybe you will make games with me!
 
 * 🌍  I'm based in Tashkent
 * 🖥️  See my portfolio at [GitHub](http://github.com/artur458/artur458)
