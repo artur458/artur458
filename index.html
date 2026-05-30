@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Портфолио — Artur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-dM8eX6Xg6Jqv6XZVg0j1+G9f1Q3wFj1z9q1G5w6QZcZ1g6Zs5Y5Xk1f1v3q1+5Zg1x6y1Z6Y1a6G1+Z1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Artur — Developer</a>
+      <nav class="nav">
+        <a href="#projects">Проекты</a>
+        <a href="#yandex">Yandex Games</a>
+        <a href="#assets">Unity Assets</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero reveal">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Привет, я Artur</h1>
+          <p>Я создаю игры и ассеты. Здесь — мои проекты в GitHub, игры на Yandex Games и ассеты для Unity.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#projects">Посмотреть проекты</a>
+            <a class="btn ghost" href="https://yandex.ru/games/developer/108336" target="_blank" rel="noopener">Мои игры на Yandex</a>
+          </div>
+        </div>
+        <div class="hero-art reveal">
+          <div class="card-profile">
+            <div class="avatar">A</div>
+            <div>
+              <div class="name">Artur</div>
+              <div class="role">Game Developer / Unity</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container reveal">
+      <h2>Проекты на GitHub</h2>
+      <p class="muted">Автоматически загружаются репозитории пользователя <a href="https://github.com/artur458" target="_blank" rel="noopener">artur458</a>.</p>
+      <div id="repos" class="grid"></div>
+    </section>
+
+    <section id="yandex" class="section container reveal">
+      <h2>Игры на Yandex Games</h2>
+      <p class="muted">Профиль разработчика:</p>
+      <div class="grid" id="yandex-list">
+        <div class="card link-card">
+          <div class="card-body">
+            <h3><i class="fa fa-yandex"></i> Yandex Games — Artur</h3>
+            <p class="muted"><a href="https://yandex.ru/games/developer/108336" target="_blank" rel="noopener">https://yandex.ru/games/developer/108336</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="assets" class="section container reveal">
+      <h2>Unity Asset Store</h2>
+      <p class="muted">Профиль в Unity Asset Store:</p>
+      <div class="grid" id="assets-list">
+        <div class="card link-card">
+          <div class="card-body">
+            <h3><i class="fa fa-store"></i> Unity Asset Store</h3>
+            <p class="muted"><a href="#" target="_blank" rel="noopener">Вставьте ссылку на профиль / ассеты</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacts" class="section container reveal">
+      <h2>Контакты</h2>
+      <p class="muted">Связаться: broartur88@gmail.com</p>
+      <p class="muted"><a href="https://t.me/Deadly_Place" target="_blank" rel="noopener">Telegram </a> •  <a href="https://discord.gg/m7qWUgRGK7" target="_blank" rel="noopener">Discord</a>  • <a href="https://github.com/artur458" target="_blank" rel="noopener">GitHub</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© <span id="year"></span> Artur — Все права защищены</div>
+      <div class="socials">
+        <a href="https://github.com/artur458" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="https://yandex.ru/games/developer/108336" target="_blank" rel="noopener"><i class="fa-brands fa-yandex"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
